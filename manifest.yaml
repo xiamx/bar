@@ -1,0 +1,9 @@
+---
+
+name: bar
+maintainer: barre
+description: a short description
+version: 1.0
+handlers:
+  - event: user:deploy
+    script: 'deploy.sh'
